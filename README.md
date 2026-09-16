@@ -1,15 +1,15 @@
 # esp32-Marauder
 ESP32-based wireless tool for both offensive testing and defensive detection deauth attacks, rogue AP spoofing, BLE attacks, plus real-time threat monitoring
 
-**Red team meets blue team on ESP32** — offensive attack modules (deauth, evil twin, BLE spoofing) paired with defensive threat detection and alerting, built and tested as a personal wireless security lab project.
+**Red team meets blue team on ESP32** offensive attack modules (deauth, evil twin, BLE spoofing) paired with defensive threat detection and alerting, built and tested as a personal wireless security lab project.
 
 ## Overview
 
-This project combines offensive wireless testing capabilities with real-time defensive monitoring on a single ESP32 platform. It's designed for hands-on security research — simulate common Wi-Fi/BLE attacks to understand how they work, then switch to detection mode to see how the same attacks look from a defender's perspective.
+This project combines offensive wireless testing capabilities with real-time defensive monitoring on a single ESP32 platform. It's designed for hands-on security research simulate common Wi-Fi/BLE attacks to understand how they work, then switch to detection mode to see how the same attacks look from a defender's perspective.
 
 ## Features
 
-### Offensive — WiFi
+### Offensive WiFi
 - Deauthentication flood
 - Probe request flood
 - Beacon spam (list-based and randomized SSIDs)
@@ -22,7 +22,7 @@ This project combines offensive wireless testing capabilities with real-time def
 - SAE commit flood
 - Channel switch / quiet time disruption
 
-### Offensive — Bluetooth
+### Offensive Bluetooth
 - Sour Apple (Apple BLE spam)
 - Swiftpair spam (Windows)
 - Samsung BLE spam
@@ -30,10 +30,10 @@ This project combines offensive wireless testing capabilities with real-time def
 - BT spam all (multi-vendor BLE spam)
 - Airtag spoofing
 
-### Offensive — Other
+### Offensive Other
 - BadUSB / Ducky Script execution
 
-### Defensive — Detection & Monitoring
+### Defensive Detection & Monitoring
 - Deauth attack sniffing
 - Pwnagotchi detection
 - EAPOL / PMKID sniffing
@@ -71,7 +71,7 @@ This project combines offensive wireless testing capabilities with real-time def
 
 ## Setup
 
-1. Flash the firmware using a browser-based flasher — no Arduino IDE or PlatformIO required:
+1. Flash the firmware using a browser based flasher no Arduino IDE or PlatformIO required:
    - [JCMK Marauder Installer](https://justcallmekoko.github.io/MarauderInstaller/) — official installer for standard ESP32 Marauder builds
    - [ESP Terminator](https://espterminator.com/) — alternative multi-firmware web flasher (also supports Bruce, GhostESP, etc.)
 2. Connect your ESP32 to your computer via USB
@@ -82,7 +82,7 @@ This project combines offensive wireless testing capabilities with real-time def
 
 ## Usage
 
-(Briefly describe how to switch between offensive and defensive modes, and what the alerts look like — e.g. LED indicator, display output, serial log.)
+(Briefly describe how to switch between offensive and defensive modes, and what the alerts look like e.g. LED indicator, display output, serial log.)
 
 ## Disclaimer
 
